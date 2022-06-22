@@ -1,0 +1,182 @@
+.navbar-brand{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.logo{
+    width: 20em;
+    opacity: 0.5;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+#tiere{
+    margin-top: 200px;
+    
+    
+}
+.allgemeintext{
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 80px;
+    background-color: rgb(177, 211, 240);
+
+}
+#koalabild{
+   margin-top: 100px;
+}
+
+
+
+#tiger{
+    border: solid;
+    
+    border-radius: 10px;
+}
+
+#zudentierentext{
+    border-style: solid;
+    background-color: rgb(177, 211, 240);
+    
+    border-radius: 10px;
+    
+}
+#wirsindhier{
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: rgb(177, 211, 240);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+#zudentierenbutton{
+    color: gray;
+    background-color: aliceblue;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+#zudentierenbutton:hover {
+    background-color: rgb(93, 151, 201)
+}
+.row{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.tierbild{
+    
+    margin-top: 15px;
+}
+.tierart{
+    border-style: solid;
+    background-color:rgb(177, 211, 240); 
+    margin-top: 20px;
+    padding-bottom: 10px;
+    
+
+}
+img{
+    margin-bottom: 10px;
+    width: 48%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+
+    
+}
+#demo{
+    margin-top: 10px;
+}
+#title{
+    max-height: 500px;
+    max-block-size: 700px;
+}
+body{
+    background-image: url(images/snake_new2.png);
+    
+    background-position-y: 0%;
+    background-position-x: left;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.übertier{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.event{
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 50%;
+    margin-top: 60px;
+    background-color:rgb(177, 211, 240) ;
+    padding-top: 5px;
+    
+}
+strong{
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+   
+
+
+  
+.footer{
+    border:  solid 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    
+}
+th, td {
+    padding: 15px;
+} 
+
+  table td + td{ border-left:2px solid gray;
+    padding-bottom: 10px; 
+}
+th {
+    text-decoration: underline;
+}
+#map{
+    margin-top: 50px;
+    
+}
+
+
+@media screen and (max-width: 998px){
+    #zudentierentext{
+        margin-top: 70px;
+    }
+
+
+}
+@media screen and (min-width: 998px){
+    #zudentierentext{
+        padding-top: 170px;
+    }
+}
+@media screen and (min-width: 998px){
+    #tiertext{
+        max-width: 50%;
+    }
+}
