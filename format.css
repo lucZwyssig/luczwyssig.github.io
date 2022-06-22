@@ -56,14 +56,14 @@
     padding-top: 10px;
     padding-bottom: 10px; 
 }
-#zudentierenbutton{
+.zudentierenbutton{
     color: gray;
     background-color: aliceblue;
     margin-left: 20px;
     display: flex;
     justify-content: center;
 }
-#zudentierenbutton:hover {
+.zudentierenbutton:hover {
     background-color: rgb(93, 151, 201)
 }
 .row{
